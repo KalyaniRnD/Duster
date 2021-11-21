@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: fespa3
+data:
+  DEFAULT_THEME: dawn
+  PREMIUM_THEME: awesome
+  test.properties: |
+    free.team.size=1
+    premium.team.size=10
